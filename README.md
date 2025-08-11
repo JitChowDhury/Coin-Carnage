@@ -1,34 +1,52 @@
-# Multiplayer Top-Down Shooter (.io Style)
+# 🎯 Multiplayer Top-Down Shooter (.io Style)
 
-A multiplayer .io-style top-down shooter built with **Unity** and **Netcode for GameObjects (NGO)**.  
-Inspired by games like _Slither.io_ and _Agar.io_, this project supports dozens of players battling in the same arena — moving, shooting, collecting coins, and competing for the top spot on the leaderboard.
+![Unity](https://img.shields.io/badge/Engine-Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
+![C#](https://img.shields.io/badge/Language-C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-In%20Development-orange?style=for-the-badge)
+
+> A fast-paced **.io-style multiplayer shooter** where dozens of players battle for dominance — built with **Unity**, **Netcode for GameObjects (NGO)**, and **Unity Gaming Services (UGS)**.
 
 ---
 
 ## 🚀 Features
 
-- **Multiplayer Gameplay** — Built with Unity's NGO framework for smooth online play.
-- **.io Style Mechanics** — Competitive free-for-all with simple, addictive gameplay.
-- **Tanks with Abilities** — Move, shoot, and collect coins to increase your score.
-- **Leaderboards** — Track player scores in real time.
-- **Mini-map** — Navigate the battlefield and track other players.
-- **Bounties System** — Rewards for defeating high-value targets.
-- **Dedicated Server Deployment** — No need for player hosting.
-- **Matchmaking via Unity Gaming Services (UGS)** — Easy connection without port forwarding.
+- ⚔ **Real-Time Multiplayer** — Powered by NGO for smooth and responsive gameplay.
+- 🎮 **.io Style Chaos** — Compete with 20+ players in the same arena.
+- 💥 **Tanks with Abilities** — Move, shoot, and collect coins to level up.
+- 📊 **Leaderboards** — Track player rankings in real time.
+- 🗺 **Mini-Map** — Keep track of enemies and objectives.
+- 🎯 **Bounties** — Take down high-value targets for big rewards.
+- 🌐 **Dedicated Server** — No player hosting required.
+- 🔗 **Matchmaking with UGS** — Connect without port forwarding.
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
-- **Unity Game Engine**
-- **Netcode for GameObjects (NGO)**
-- **Unity Gaming Services (UGS)** — Lobby, Relay, and Matchmaking
-- **C# Scripting**
+| Tool / Service                  | Purpose                   |
+| ------------------------------- | ------------------------- |
+| **Unity Game Engine**           | Core game development     |
+| **C#**                          | Game logic scripting      |
+| **Netcode for GameObjects**     | Multiplayer networking    |
+| **Unity Gaming Services (UGS)** | Lobby, Relay, Matchmaking |
+| **Photon / Dedicated Server**   | Scalable hosting          |
+
+---
+
+## 🎯 Learning Goals
+
+This project is part of my journey to master multiplayer game development:
+
+1. Master **Unity networking workflows**.
+2. Build and deploy **dedicated servers**.
+3. Implement **matchmaking and leaderboards**.
+4. Polish a full **.io-style competitive game**.
 
 ---
 
 ## 📸 Screenshots
 
-_(Coming Soon)_
+> Coming soon — stay tuned! 📷
 
 ---
