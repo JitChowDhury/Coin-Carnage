@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8971539669614456285}
   - component: {fileID: 8217894700882593214}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shell Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -98,6 +98,10 @@ PrefabInstance:
     - target: {fileID: 106610030498916792, guid: 48a40a18e877cef408ea1913f569dde0, type: 3}
       propertyPath: m_Name
       value: ClientProjectile
+      objectReference: {fileID: 0}
+    - target: {fileID: 834615431497714251, guid: 48a40a18e877cef408ea1913f569dde0, type: 3}
+      propertyPath: GlobalObjectIdHash
+      value: 1928326061
       objectReference: {fileID: 0}
     - target: {fileID: 7319602296701540055, guid: 48a40a18e877cef408ea1913f569dde0, type: 3}
       propertyPath: m_LocalPosition.x
