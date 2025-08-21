@@ -271,6 +271,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1526146123714750233}
   - component: {fileID: 5998375292510311140}
+  - component: {fileID: -1709900727893761935}
   - component: {fileID: -5397030777761750298}
   - component: {fileID: 8914267787942274855}
   - component: {fileID: 2171614092388332312}
@@ -323,6 +324,21 @@ MonoBehaviour:
   AutoObjectParentSync: 1
   SyncOwnerTransformWhenParented: 1
   AllowOwnerToParent: 0
+--- !u!114 &-1709900727893761935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3402163231971519181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e38b1d8b0a87be049a98f04de0e7ec49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  inputReader: {fileID: 11400000, guid: 7c2e5671e15f4d445899e601d18e6fa7, type: 2}
+  turrentTransform: {fileID: 2422257973304051922}
 --- !u!114 &-5397030777761750298
 MonoBehaviour:
   m_ObjectHideFlags: 0

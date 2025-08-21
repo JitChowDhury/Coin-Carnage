@@ -16,15 +16,17 @@ public class PlayerMovement : NetworkBehaviour
     [SerializeField] private float turningRate = 30f;
 
     private Vector2 previousMovementInput;
+
+    //a netcode lifecycle method which is called autoamtically when the object is spawned on the network (like a player joins)
     public override void OnNetworkSpawn()
     {
-        if (!IsOwner) return;
+        if (!IsOwner) return;//isowner is true only if the client owns the object 
 
         inputReader.MoveEvent += HandleMove;
 
     }
 
-    public override void OnNetworkDespawn()
+    public override void OnNetworkDespawn()//lifecycle method called when a object is despawned(like player disconnects object destroyed)
     {
         if (!IsOwner) return;
         inputReader.MoveEvent -= HandleMove;
