@@ -128,6 +128,37 @@ MonoBehaviour:
   SwitchTransformSpaceWhenParented: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!1 &1131602200726993397
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1112630876851133308}
+  m_Layer: 0
+  m_Name: projectile spawn point
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1112630876851133308
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131602200726993397}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.82, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5770429580370445054}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1816754468304707339
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +172,7 @@ GameObject:
   m_Layer: 0
   m_Name: TurrentPivot
   m_TagString: Untagged
-  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -219,6 +250,7 @@ GameObject:
   - component: {fileID: 5998375292510311140}
   - component: {fileID: -1709900727893761935}
   - component: {fileID: -5397030777761750298}
+  - component: {fileID: 6376883750338315121}
   - component: {fileID: 8914267787942274855}
   - component: {fileID: 2171614092388332312}
   m_Layer: 0
@@ -303,6 +335,24 @@ MonoBehaviour:
   rb: {fileID: 2171614092388332312}
   movementSpeed: 5
   turningRate: 270
+--- !u!114 &6376883750338315121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3402163231971519181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8400ffd9a25f55d48a3d91b65e5d9254, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ShowTopMostFoldoutHeaderGroup: 1
+  inputReader: {fileID: 11400000, guid: 7c2e5671e15f4d445899e601d18e6fa7, type: 2}
+  projectileSpawnPoint: {fileID: 1112630876851133308}
+  serverProjectilePrefab: {fileID: 5222236407577325565, guid: 53a30f4bc2089b74a8dcf394548540ae, type: 3}
+  clientProjectilePrefab: {fileID: 3314617176657903025, guid: 2738319c4fd330c4f92aa6383c1de741, type: 3}
+  projectileSpeed: 30
 --- !u!114 &8914267787942274855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -579,7 +629,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0.152, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
-  m_Children: []
+  m_Children:
+  - {fileID: 1112630876851133308}
   m_Father: {fileID: 2422257973304051922}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1915111002055087433
